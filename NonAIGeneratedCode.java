@@ -22,10 +22,11 @@ public class NonAIGeneratedCode{
         System.out.println();
         
         int sum = 0;
-        for (int num : numbers) {
-            sum += num;
+        for (int i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
         }
         System.out.println("Sum of the numbers: " + sum);
+
         
         double average = (double) sum / size;
         System.out.println("Average of the numbers: " + average);
