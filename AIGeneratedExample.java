@@ -44,5 +44,4 @@ public class AIGeneratedExample {
         return matrix;
     }
 
-    // ... (Implementations of printMatrix and other helper functions)
 }
